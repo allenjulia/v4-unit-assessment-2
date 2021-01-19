@@ -36,7 +36,9 @@ let foods = [
 */
 
 //CODE HERE
-
+foods.forEach(function(element, index, array){
+  foods.calories = (foods.carbs * 4) + (foods.protein*4) + (foods.fat*9)
+})
 //////////////////////////////////PROBLEMS 2-4//////////////////////////////////
 /*
   For problems 2-4, you will be working with the products array below.
