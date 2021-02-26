@@ -21,7 +21,7 @@ const myArr=[4, 'abc', ['cat', 'dog', 'bird'], 77]
 const nestedLetters = ['m', 'g', 'e', 'q', 'h', ['n', 'b', ['v', 'z', 'y', 'r']], 'a']
 
 //CODE HERE
-const foundZ = nestedLetters[5][2][1]
+let foundZ = nestedLetters[5][2][1]
 
 ////////////////////PROBLEM 3////////////////////
 /*
@@ -57,7 +57,7 @@ const animalsCopy= [...animals, 'elephant']
 */
 
 //CODE HERE
-const compareNums = (num1, num2) =>{
+let compareNums = (num1, num2) =>{
     if(num1 > num2){
         return num1
     }
